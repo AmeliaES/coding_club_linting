@@ -1,5 +1,5 @@
 ---
-title: "The Turing Way - Code Styling and Linting"
+title: "Code Styling and Linting"
 author: Amelia Edmondson-Stait & [The Turing Way Community](https://book.the-turing-way.org/)
 date: "last-modified"
 date-format: "Do MMM, YYYY"
@@ -218,29 +218,23 @@ $ autopep8 --in-place --aggressive --aggressive <filename>
 
 -   Linters and automatic reformatting saves time.
 -   When working with others it's possible to automate these processes further eg. using GitHub actions.
--   `lintr` R package has [guidelines](https://lintr.r-lib.org/articles/continuous-integration.html)
+-   `lintr` R package has [instructions](https://lintr.r-lib.org/articles/continuous-integration.html) for using GitHub actions.
 
 ## 
 
 ### Other resources:
-- [Excellent video tutorial](https://youtu.be/y1nwosH8ybk?si=0JpB9FO4AKzMX15N)
+
+-   [Excellent video tutorial](https://youtu.be/y1nwosH8ybk?si=0JpB9FO4AKzMX15N)
 
 ### Exercise:
 
--   For the remainder of today's coding club session try to:
--   Install `lintr` in R Studio and try re-formatting your code following the [Tidyverse R style guide](https://style.tidyverse.org/).
--   You're welcome to reformat one of my scripts [here](https://github.com/ccbs-stradl/coding_club_linting/tree/main/exercise/) instead of your own code if you like.
--   **Advanced:** Set up GitHub actions to automate linting.
+-   For the remainder of today's coding club session:
+- Go to [https://github.com/ccbs-stradl/coding_club_linting](https://github.com/ccbs-stradl/coding_club_linting). Click on the `exercise/` folder and follow the `exercises.R` script.
 
-## [https://github.com/ccbs-stradl/coding_club_linting](https://github.com/ccbs-stradl/coding_club_linting)
+## 
+
 {{< video https://youtu.be/8uZa9y5jT3I width="100%" height="100%" >}}
 
-
-##
+## 
 
 {{< video https://youtu.be/I736wZs_QiE width="100%" height="100%" >}}
-
-
-
-
-
