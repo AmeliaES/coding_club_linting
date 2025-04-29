@@ -13,6 +13,7 @@ library(lintr)
 # This will tell you useful info about the functions and how to use them.
 
 # Exercises:
+# ---- Running lintr ------------------
 # 1. Using the `lint` function lint either your own script or one of the provided scripts.
 
 # Example code to lint one of my scripts: lint(here("exercise/supplementary_tables_excel.R"))
@@ -22,12 +23,16 @@ library(lintr)
 # 2. Go through the linting results and fix a couple of the issues that are raised 
 # (if you're stuck see my video here: https://youtu.be/I736wZs_QiE).
 
+# ---- Configuring linters -------------
 # 3. By default lintr uses the R tidyverse style. 
 # Create a lintr configuration file and add a new linter. 
 # (Tip: Read The Documentation: https://lintr.r-lib.org/articles/lintr.html#configuring-linters)
 
 # 4. Try turning off the line_length_linter to remove any linting warnings about line length.
 
+# ---- Exclusions ---------------------
 # 5. Try and exclude certain lines of code from linting.
 
-# 6. Automate linting on every push to GitHub, using GitHub actions (Tip: Read The Documentation: )
+# ---- Automations --------------------
+# 6. Use styler to automate some of these linting markers.
+# 7. Automate linting on every push to GitHub, using GitHub actions (Tip: Read The Documentation: )
