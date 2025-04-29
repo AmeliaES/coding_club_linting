@@ -232,6 +232,9 @@ $ autopep8 --in-place --aggressive --aggressive <filename>
 -   You're welcome to reformat one of my scripts [here](https://github.com/ccbs-stradl/coding_club_linting/tree/main/exercise/) instead of your own code if you like.
 -   **Advanced:** Set up GitHub actions to automate linting.
 
+## [https://github.com/ccbs-stradl/coding_club_linting](https://github.com/ccbs-stradl/coding_club_linting)
+{{< video https://youtu.be/8uZa9y5jT3I width="100%" height="100%" >}}
+
 
 ##
 
