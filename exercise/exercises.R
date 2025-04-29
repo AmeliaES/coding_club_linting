@@ -15,7 +15,8 @@ library(lintr)
 # Exercises:
 # 1. Using the `lint` function lint either your own script or one of the provided scripts.
 
-# Example code to lint one of my scripts: lint(here("exercise/supplementary_tables_excel.R"))
+# Example to lint one of my scripts:
+lint(here("exercise/supplementary_tables_excel.R"))
 # Hint: alternative to running the above you can click on "Addins" 
 # and under the "LINTR" heading click on "lint current file".
 
