@@ -65,6 +65,7 @@ use_lintr()
 
 # ---- Automations --------------------
 # 6. Use styler to automate some of these linting markers.
+# Please read documentation here first: https://www.tidyverse.org/blog/2017/12/styler-1.0.0/
 library(styler)
 style_file(here("exercise/supplementary_tables_excel.R"))
 style_file(here("exercise/supplementary_tables_excel_functions.R"))
@@ -73,5 +74,5 @@ style_file(here("exercise/supplementary_tables_excel_functions.R"))
 # 7. Automate linting on every push to GitHub, using GitHub actions (Tip: Read The Documentation: )
 usethis::use_github_action("lint-project")
 # edited to only run linting on "exercise/supplementary_tables_excel.R"
-
+# because "LINTR_ERROR_ON_LINT: true" then the action will fail if there are any linting errors
 
