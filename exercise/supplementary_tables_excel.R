@@ -1,5 +1,5 @@
 # Create supplementary tables in excel spreadsheets for the following:
-# Clumping / finemapping
+# nolint Clumping / finemapping
 # Gene mapping mBAT, cross method
 # GWAS catalog
 # LDSC/popcorn: between gwas, between meta, with external traits, reference table
@@ -23,6 +23,7 @@ source(here("manuscript/scripts/supplementary_tables_excel_functions.R"))
 ###############################################
 #### Use main() to run create_table functions #
 ###############################################
+# nolint start
 main <- function() {
   # Set table_index to 1
   table_index <- update_table_index(0)
@@ -47,7 +48,7 @@ main <- function() {
                                         "significant SuSiEx credible sets"),
                cell_title_width = 30,
                cell_title_height = 50)
-  
+  # nolint end  
   # Set table index to 2
   table_index <- update_table_index(table_index)
   
@@ -67,6 +68,7 @@ main <- function() {
   table_index <- update_table_index(table_index)
   
 }
+
 
 # ---------------------------------------------
 # Run the main function
